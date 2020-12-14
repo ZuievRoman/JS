@@ -10,5 +10,10 @@ const personalMovieDB = {
     privat: false
 }
 
-const lastOfFilms = prompt('Один из последних фильмов?');
-const rateOfFilms = prompt('На сколько оцените его?');
+
+for (let i = 0; i < 2; i++) {
+    const lastOfFilms = prompt('Один из последних фильмов?');
+    const rateOfFilms = prompt('На сколько оцените его?');
+}
+
+console.log(movies[lastOfFilms]);
